@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.joy.JoyLibarayDes"/>
+    <classEntry path="com.joy.net.HttpRequestStatic"/>
+    <classEntry path="com.joy.util.RegExpUtil"/>
+    <classEntry path="com.joy.net.AMFPHP"/>
+    <classEntry path="com.joy.net.HttpRequest"/>
+    <classEntry path="com.joy.util.HexBitmapUtil"/>
+    <classEntry path="com.joy.util.ClassObjectUtil"/>
+    <classEntry path="com.joy.util.ColorUtil"/>
+    <classEntry path="com.joy.loader.JURLoader"/>
+    <classEntry path="com.joy.loader.interFaces.ILoader"/>
+    <classEntry path="com.joy.loader.BaseLoader"/>
+    <classEntry path="com.joy.loader.DisplayLoader"/>
+    <classEntry path="com.joy.loader.SoundLoader"/>
+    <classEntry path="com.joy.loader.QueueLoader"/>
+    <classEntry path="com.joy.loader.events.LoaderEvent"/>
+    <classEntry path="com.joy.air.util.FileHelper"/>
+    <classEntry path="com.joy.UIComponent.interFaces.IUI"/>
+    <classEntry path="com.joy.UIComponent.interFaces.IDragAble"/>
+    <classEntry path="com.joy.UI.calendar.JoyCalendar"/>
+    <classEntry path="com.joy.UI.calendar.Calendar"/>
+    <classEntry path="com.joy.UI.calendar.view.BaseView"/>
+    <classEntry path="com.joy.UI.calendar.view.YearView"/>
+    <classEntry path="com.joy.UI.calendar.view.MonthView"/>
+    <classEntry path="com.joy.UI.calendar.view.DayView"/>
+    <classEntry path="com.joy.UI.calendar.view.WeekView"/>
+    <classEntry path="com.joy.UIComponent.list.BaseList"/>
+    <classEntry path="com.joy.UIComponent.interFaces.ICellRenderer"/>
+    <classEntry path="com.joy.UIComponent.cell.CellRenderer"/>
+    <classEntry path="com.joy.UIComponent.list.PageList"/>
+    <classEntry path="com.joy.UI.calendar.CalendarConfig"/>
+    <classEntry path="com.joy.UIComponent.interFaces.IData"/>
+    <classEntry path="com.joy.UIComponent.interFaces.IView"/>
+    <classEntry path="com.joy.UI.UICreator"/>
+    <classEntry path="com.joy.manager.timer.TimerManage"/>
+    <classEntry path="com.joy.manager.timer.TimerKeys"/>
+    <classEntry path="com.joy.UIComponent.list.TileList"/>
+    <classEntry path="com.joy.UI.calendar.cellRenderer.WeekCellRenderer"/>
+    <classEntry path="com.joy.UI.calendar.cellRenderer.DayCellRenderer"/>
+    <classEntry path="com.joy.UI.calendar.cellRenderer.WeekAndDayCellBase"/>
+    <classEntry path="com.joy.UIComponent.interFaces.IWindow"/>
+    <classEntry path="com.joy.UI.calendar.event.CalenderEvent"/>
+    <classEntry path="com.joy.UIComponent.view.BaseView"/>
+    <classEntry path="com.joy.util.URLEncodeUtil"/>
+    <classEntry path="com.joy.UIComponent.input.NumbericStep"/>
+    <classEntry path="com.joy.UI.layer.TipLayer"/>
+    <classEntry path="com.joy.UI.layer.BgLayer"/>
+    <classEntry path="com.joy.UI.layer.ViewLayer"/>
+    <classEntry path="com.joy.UI.layer.Layer"/>
+    <classEntry path="com.joy.UIComponent.button.ZArrowButton"/>
+    <classEntry path="com.joy.UIComponent.events.NumbericEvent"/>
+    <classEntry path="com.joy.util.EncryptUtil"/>
+    <classEntry path="com.joy.loader.ProgressInfo"/>
+    <classEntry path="com.joy.Global"/>
+    <classEntry path="com.joy.cursor.CursorManager"/>
+    <classEntry path="com.joy.UIComponent.input.TextInfoNumberic"/>
+    <classEntry path="com.joy.UIComponent.checkBox.ZCheckBox"/>
+    <classEntry path="com.joy.alert.Alert"/>
+    <classEntry path="com.joy.util.DataImageUtils"/>
+    <classEntry path="TexturedTextField"/>
+    <classEntry path="com.joy.debug.JoyDebugSys"/>
+    <classEntry path="com.joy.debug.DebugObjInfo"/>
+    <classEntry path="com.joy.debug.DebugItem"/>
+    <classEntry path="com.joy.debug.DebugEvent"/>
+    <classEntry path="com.joy.debug.DebugInfo"/>
+    <classEntry path="com.joy.debug.DebugSelectItem"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
