@@ -5,7 +5,8 @@ package com.joy.manager.timer
 	 * @date 2014-8-4 上午11:36:20
 	 **/
 	public class TimerKeys
-	{
+	{		
+		
 		public static var NOW_DATE:String="now_date";
 		
 		public function TimerKeys()

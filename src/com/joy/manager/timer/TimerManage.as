@@ -98,9 +98,9 @@ package com.joy.manager.timer
 		{
 			if(this._timer && this._timer.running)
 			{
-				this._timer.reset();				
-			}
-			this._timer.start();
+				this._timer.reset();
+				this._timer.start();
+			}			
 			this._nowDate=new Date();
 		}
 		public function shutDown():void
