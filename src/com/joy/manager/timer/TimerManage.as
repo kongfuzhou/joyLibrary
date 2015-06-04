@@ -96,7 +96,7 @@ package com.joy.manager.timer
 		}
 		public function startup():void
 		{
-			if(this._timer && this._timer.running)
+			if(this._timer && !this._timer.running)
 			{
 				this._timer.reset();
 				this._timer.start();

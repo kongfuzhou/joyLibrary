@@ -6,6 +6,8 @@
 	public class KeyBoardControl {
 		private var stage:Stage;
 		private var _dict:Dictionary;
+		private var _downList:Array;
+		private var _upList:Array;
 		
 		private static var instance:KeyBoardControl;
 		
@@ -30,6 +32,8 @@
 		{
 			this.stage = stage;
 			this._dict = new Dictionary(true);
+			this._downList=[];
+			this._upList=[];
 			if (this.stage) 
 			{
 				this.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyDownHandler);
@@ -41,13 +45,39 @@
 		{
 			//this._dict[e.keyCode] = false;
 			delete this._dict[e.keyCode];
+			for each (var func:Function in this._upList) 
+			{
+				if(func!=null)
+				{
+					func(e.keyCode);
+				}
+			}
 		}
 		
 		private function onKeyDownHandler(e:KeyboardEvent):void 
 		{
 			//trace('onKeyDownHandler e.keyCode='+e.keyCode);
 			this._dict[e.keyCode] = true;
+			for each (var func:Function in this._downList) 
+			{
+				if(func!=null)
+				{
+					func(e.keyCode);
+				}
+			}
+			
 		}
+		public function addDownList(downFun:Function):void
+		{
+			this._downList.push(downFun);
+		}
+		
+		public function addUpList(upFun:Function):void
+		{
+			this._upList.push(upFun);
+		}
+		
+		
 		/**
 		 *是否按下了某个按键 
 		 * @param keyCode

@@ -66,6 +66,7 @@
     <classEntry path="com.joy.debug.DebugEvent"/>
     <classEntry path="com.joy.debug.DebugInfo"/>
     <classEntry path="com.joy.debug.DebugSelectItem"/>
+    <classEntry path="com.joy.manager.sound.SoundManage"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
